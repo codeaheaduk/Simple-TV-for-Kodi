@@ -1,0 +1,30 @@
+# Local research notes: retain locally, exclude from the public project.
+/DEMENTIA_KODI_DESIGN_RESEARCH.md
+/XIAOMI_OFFLINE_TV_RESEARCH.md
+
+# Private development media, state and local configuration.
+/media/
+/private/
+/local/
+/backups/
+/logs/
+/portable_data/
+.env
+.env.*
+!.env.example
+*.log
+
+# Python/tool caches and generated distributions.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Operating-system metadata.
+Thumbs.db
+Desktop.ini
+.DS_Store
